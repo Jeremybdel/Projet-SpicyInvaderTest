@@ -1,0 +1,14 @@
+D:\DATA\jonletourneur\spicyinvader\spicyinvader\bin\Debug\spicyinvader.exe.config
+D:\DATA\jonletourneur\spicyinvader\spicyinvader\bin\Debug\spicyinvader.exe
+D:\DATA\jonletourneur\spicyinvader\spicyinvader\bin\Debug\spicyinvader.pdb
+D:\DATA\jonletourneur\spicyinvader\spicyinvader\obj\Debug\spicyinvader.csprojAssemblyReference.cache
+D:\DATA\jonletourneur\spicyinvader\spicyinvader\obj\Debug\spicyinvader.csproj.CoreCompileInputs.cache
+D:\DATA\jonletourneur\spicyinvader\spicyinvader\obj\Debug\spicyinvader.exe
+D:\DATA\jonletourneur\spicyinvader\spicyinvader\obj\Debug\spicyinvader.pdb
+C:\Users\thedipaola\Desktop\Projet-SpicyInvaderTest\spicyinvader\spicyinvader\obj\Debug\spicyinvader.csprojAssemblyReference.cache
+C:\Users\thedipaola\Desktop\Projet-SpicyInvaderTest\spicyinvader\spicyinvader\obj\Debug\spicyinvader.csproj.CoreCompileInputs.cache
+C:\Users\thedipaola\Desktop\Projet-SpicyInvaderTest\spicyinvader\spicyinvader\obj\Debug\spicyinvader.exe
+C:\Users\thedipaola\Desktop\Projet-SpicyInvaderTest\spicyinvader\spicyinvader\obj\Debug\spicyinvader.pdb
+C:\Users\thedipaola\Desktop\Projet-SpicyInvaderTest\spicyinvader\spicyinvader\bin\Debug\spicyinvader.exe.config
+C:\Users\thedipaola\Desktop\Projet-SpicyInvaderTest\spicyinvader\spicyinvader\bin\Debug\spicyinvader.exe
+C:\Users\thedipaola\Desktop\Projet-SpicyInvaderTest\spicyinvader\spicyinvader\bin\Debug\spicyinvader.pdb
