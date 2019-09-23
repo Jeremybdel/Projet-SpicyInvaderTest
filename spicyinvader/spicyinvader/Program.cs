@@ -30,7 +30,30 @@ namespace spaceInvadersSquelette
             bool missileFired = false;
 
             int tics = 0;
-
+            Console.WriteLine("	      ┌──────────────────────────────────────────────────┐");
+            Console.WriteLine("              │                                                  │");
+            Console.WriteLine("              │                                                  │");
+            Console.WriteLine("              │                                                  │");
+            Console.WriteLine("              │                                                  │");
+            Console.WriteLine("              │                                                  │");
+            Console.WriteLine("              │                                                  │");
+            Console.WriteLine("              │                                                  │");
+            Console.WriteLine("              │                                                  │");
+            Console.WriteLine("              │                                                  │       .-.   ");
+            Console.WriteLine("     ┌──┐     │                                                  │      ( A )  ");
+            Console.WriteLine("     │  │     │                                                  │       '-'   ");
+            Console.WriteLine("  ┌──┘  └──┐  │                                                  │   .-.       ");
+            Console.WriteLine("  │        │  │                                                  │  ( B )      ");
+            Console.WriteLine("  └──┐  ┌──┘  │                                                  │   '-'       ");
+            Console.WriteLine("     │  │     │                                                  │");
+            Console.WriteLine("     └──┘     │                                                  │");
+            Console.WriteLine("              │                                                  │");
+            Console.WriteLine("              │                                                  │   ___   ___");
+            Console.WriteLine("              │                                                  │  (___) (___)");
+            Console.WriteLine("              │                                                  │ select start");
+            Console.WriteLine("              │                                                  │");
+            Console.WriteLine("              │                                                  │");
+            Console.WriteLine("              └──────────────────────────────────────────────────┘");
             while (true)
             {
                 //Utilisateur a appuyé sur une touche ?

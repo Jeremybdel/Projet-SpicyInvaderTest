@@ -12,3 +12,10 @@ C:\Users\thedipaola\Desktop\Projet-SpicyInvaderTest\spicyinvader\spicyinvader\ob
 C:\Users\thedipaola\Desktop\Projet-SpicyInvaderTest\spicyinvader\spicyinvader\bin\Debug\spicyinvader.exe.config
 C:\Users\thedipaola\Desktop\Projet-SpicyInvaderTest\spicyinvader\spicyinvader\bin\Debug\spicyinvader.exe
 C:\Users\thedipaola\Desktop\Projet-SpicyInvaderTest\spicyinvader\spicyinvader\bin\Debug\spicyinvader.pdb
+C:\Users\thedipaola.ETMLNET\Desktop\Projet-SpicyInvaderTest\spicyinvader\spicyinvader\bin\Debug\spicyinvader.exe.config
+C:\Users\thedipaola.ETMLNET\Desktop\Projet-SpicyInvaderTest\spicyinvader\spicyinvader\bin\Debug\spicyinvader.exe
+C:\Users\thedipaola.ETMLNET\Desktop\Projet-SpicyInvaderTest\spicyinvader\spicyinvader\bin\Debug\spicyinvader.pdb
+C:\Users\thedipaola.ETMLNET\Desktop\Projet-SpicyInvaderTest\spicyinvader\spicyinvader\obj\Debug\spicyinvader.csprojAssemblyReference.cache
+C:\Users\thedipaola.ETMLNET\Desktop\Projet-SpicyInvaderTest\spicyinvader\spicyinvader\obj\Debug\spicyinvader.csproj.CoreCompileInputs.cache
+C:\Users\thedipaola.ETMLNET\Desktop\Projet-SpicyInvaderTest\spicyinvader\spicyinvader\obj\Debug\spicyinvader.exe
+C:\Users\thedipaola.ETMLNET\Desktop\Projet-SpicyInvaderTest\spicyinvader\spicyinvader\obj\Debug\spicyinvader.pdb
