@@ -1,0 +1,7 @@
+H:\01-PROJETS\P_032Dev\SpicyInvadersTest\SpicyInvadersTest\bin\Debug\SpicyInvadersTest.exe.config
+H:\01-PROJETS\P_032Dev\SpicyInvadersTest\SpicyInvadersTest\bin\Debug\SpicyInvadersTest.exe
+H:\01-PROJETS\P_032Dev\SpicyInvadersTest\SpicyInvadersTest\bin\Debug\SpicyInvadersTest.pdb
+H:\01-PROJETS\P_032Dev\SpicyInvadersTest\SpicyInvadersTest\obj\Debug\SpicyInvadersTest.csprojAssemblyReference.cache
+H:\01-PROJETS\P_032Dev\SpicyInvadersTest\SpicyInvadersTest\obj\Debug\SpicyInvadersTest.csproj.CoreCompileInputs.cache
+H:\01-PROJETS\P_032Dev\SpicyInvadersTest\SpicyInvadersTest\obj\Debug\SpicyInvadersTest.exe
+H:\01-PROJETS\P_032Dev\SpicyInvadersTest\SpicyInvadersTest\obj\Debug\SpicyInvadersTest.pdb
