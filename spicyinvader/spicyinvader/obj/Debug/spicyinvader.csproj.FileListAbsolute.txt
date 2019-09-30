@@ -26,3 +26,10 @@ C:\Users\sofethenoz\Desktop\ProjetTest\spicyinvader\spicyinvader\obj\Debug\spicy
 C:\Users\sofethenoz\Desktop\ProjetTest\spicyinvader\spicyinvader\obj\Debug\spicyinvader.csproj.CoreCompileInputs.cache
 C:\Users\sofethenoz\Desktop\ProjetTest\spicyinvader\spicyinvader\obj\Debug\spicyinvader.exe
 C:\Users\sofethenoz\Desktop\ProjetTest\spicyinvader\spicyinvader\obj\Debug\spicyinvader.pdb
+D:\jerdelisle\repo\Projet-SpicyInvaderTest\spicyinvader\spicyinvader\bin\Debug\spicyinvader.exe.config
+D:\jerdelisle\repo\Projet-SpicyInvaderTest\spicyinvader\spicyinvader\bin\Debug\spicyinvader.exe
+D:\jerdelisle\repo\Projet-SpicyInvaderTest\spicyinvader\spicyinvader\bin\Debug\spicyinvader.pdb
+D:\jerdelisle\repo\Projet-SpicyInvaderTest\spicyinvader\spicyinvader\obj\Debug\spicyinvader.csprojAssemblyReference.cache
+D:\jerdelisle\repo\Projet-SpicyInvaderTest\spicyinvader\spicyinvader\obj\Debug\spicyinvader.csproj.CoreCompileInputs.cache
+D:\jerdelisle\repo\Projet-SpicyInvaderTest\spicyinvader\spicyinvader\obj\Debug\spicyinvader.exe
+D:\jerdelisle\repo\Projet-SpicyInvaderTest\spicyinvader\spicyinvader\obj\Debug\spicyinvader.pdb
