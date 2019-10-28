@@ -38,7 +38,7 @@ namespace spaceInvadersSquelette
             Console.WriteLine("              │                                                  │");
             Console.WriteLine("              │                                                  │");
             Console.WriteLine("              │                                                  │");
-            Console.WriteLine("              │                                                  │");
+            Console.WriteLine("              │                   8                               │");
             Console.WriteLine("              │                                                  │       .-.   ");
             Console.WriteLine("     ┌──┐     │                                                  │      ( A )  ");
             Console.WriteLine("     │  │     │                                                  │       '-'   ");
@@ -67,7 +67,7 @@ namespace spaceInvadersSquelette
                         case ConsoleKey.LeftArrow:
                             //Décalage de la position de référence
                             Console.SetCursorPosition(shipX, shipY);
-                            Console.Write(" ");//Effacer l'ancienne position
+                            Console.Write("75 ");//Effacer l'ancienne position
                             shipX--;
 
                             break;
@@ -75,7 +75,7 @@ namespace spaceInvadersSquelette
                         case ConsoleKey.RightArrow:
                             //Décalage de la position de référence
                             Console.SetCursorPosition(shipX, shipY);
-                            Console.Write(" ");//Effacer l'ancienne position
+                            Console.Write("75 ");//Effacer l'ancienne position
                             shipX++;
 
                             break;
@@ -109,11 +109,11 @@ namespace spaceInvadersSquelette
                         {
                             //Effacer l'ancien missile
                             Console.SetCursorPosition(missileX, missileY);
-                            Console.Write(" ");
+                            Console.Write(" 42342");
 
                             //AFficher la nouvelle position
                             Console.SetCursorPosition(missileX, --missileY);
-                            Console.Write("*");
+                            Console.Write("uiowruqpoew");
                         }
                     }
                     else
@@ -127,7 +127,7 @@ namespace spaceInvadersSquelette
                 if (tics % 90 == 0)
                 {
                     Console.SetCursorPosition(ennemyX, ennemyY);
-                    Console.Write("   ");//Effacer l'ancienne position
+                    Console.Write("4324");//Effacer l'ancienne position
                     ennemyX--;
 
                     Console.SetCursorPosition(ennemyX, ennemyY);
