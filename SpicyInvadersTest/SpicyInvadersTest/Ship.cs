@@ -19,14 +19,6 @@ namespace spaceInvadersSquelette
         static private int sourceHeight = 1;
         static private int targetLeft = 50;
         static private int targetTop = 21;
-        static private int tics = 0;
-        static private int temp = 1;
-
-        const string missile = "*";
-        static private int missileX = -1;
-        static private int missileY = -1;
-
-        static private bool missileFired = false;
 
         /// <summary>
         /// Affichage du vaisseau
@@ -63,13 +55,15 @@ namespace spaceInvadersSquelette
 
                     //MISSILE
                     case ConsoleKey.Spacebar:
+                        bool missileFired = true;
 
-                        //Un seul missile à la fois
-                        if (!missileFired)
+                        Missile newMissile = new Missile();
+                        newMissile.Draw(sourceLeft, sourceTop, sourceWidth, sourceHeight, targetLeft, targetTop, missileFired);
+
+                        while (missileFired)
                         {
-                            missileFired = true;
-                            missileY = targetLeft;
-                            missileX = targetTop;
+                                newMissile.Shoot();
+                                missileFired = false;
                         }
                         break;
                 }
@@ -78,30 +72,5 @@ namespace spaceInvadersSquelette
             
         }
 
-        //static public void Shoot()
-        //{
-        //    //Gestion du missile
-        //    if (missileFired)
-        //    {
-        //        if (missileY > 0)
-        //        {
-        //            //Réduire la vitesse du missile
-        //            if (tics % temp == 0)
-        //            {
-        //                Console.Write(missile);
-        //                for (; missileY > 0; missileY--)
-        //                {
-        //                    Console.MoveBufferArea(sourceLeft, sourceTop++, sourceWidth, sourceHeight, targetLeft, targetTop++);
-        //                }
-        //            }
-        //        }
-        //        else
-        //        {
-        //            //Fin du missile
-        //            missileFired = false;
-        //        }
-        //    }
-
-        //}
     }
 }

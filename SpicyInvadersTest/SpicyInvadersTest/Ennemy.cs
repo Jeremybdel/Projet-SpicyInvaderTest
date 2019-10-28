@@ -26,7 +26,7 @@ namespace spaceInvadersSquelette
         static private int DistanceHauteur = 6;
         static private bool direction = false;
         static public int tics = 0;
-        static private int temp = 5000;
+        static private int temp = 5050;
 
         /// <summary>
         /// Affichage des ennemies
@@ -47,17 +47,17 @@ namespace spaceInvadersSquelette
         /// <summary>
         /// Movement des ennemies
         /// </summary>
-        static public void MoveEnnemy ()
+        static public void MoveEnnemy()
         {
-            //
+            //Temporisation fps
             if (tics % temp == 0)
             {
-                //
+                //Tableau d'affichages des ennemies
                 for (; x < DistanceHauteur;)
                 {
                     for (; y < DistanceLargeur;)
                     {
-                        //
+                        //Change la direction parlaquelle les ennemies vont aller
                         switch (direction)
                         {
                             case false:
@@ -77,7 +77,7 @@ namespace spaceInvadersSquelette
                     x++;
                     y = 0;
                     direction = !direction;
-                    //
+                    //Déplace les ennemies vers le bas
                     if (direction == true)
                     {
                         sourceLeft = DistanceLargeur + 1;
@@ -88,7 +88,6 @@ namespace spaceInvadersSquelette
                         sourceLeft = 0;
                         targetLeft = 1;
                     }
-                    //
                     targetTop += 1;
                     Console.MoveBufferArea(sourceLeft, sourceTop, sourceWidth, sourceHeight, targetLeft, targetTop);
                     sourceTop += 1;
