@@ -1,0 +1,7 @@
+C:\Users\sofethenoz\Desktop\NewSpicyVader\NewSpicyVader\obj\Debug\NewSpicyVader.csprojAssemblyReference.cache
+C:\Users\sofethenoz\Desktop\NewSpicyVader\NewSpicyVader\obj\Debug\NewSpicyVader.csproj.CoreCompileInputs.cache
+C:\Users\sofethenoz\Desktop\NewSpicyVader\NewSpicyVader\bin\Debug\NewSpicyVader.exe.config
+C:\Users\sofethenoz\Desktop\NewSpicyVader\NewSpicyVader\bin\Debug\NewSpicyVader.exe
+C:\Users\sofethenoz\Desktop\NewSpicyVader\NewSpicyVader\bin\Debug\NewSpicyVader.pdb
+C:\Users\sofethenoz\Desktop\NewSpicyVader\NewSpicyVader\obj\Debug\NewSpicyVader.exe
+C:\Users\sofethenoz\Desktop\NewSpicyVader\NewSpicyVader\obj\Debug\NewSpicyVader.pdb
