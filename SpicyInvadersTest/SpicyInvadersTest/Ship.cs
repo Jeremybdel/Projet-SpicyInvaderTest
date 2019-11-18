@@ -54,18 +54,18 @@ namespace spaceInvadersSquelette
                         break;
 
                     //MISSILE
-                    case ConsoleKey.Spacebar:
+                    //case ConsoleKey.Spacebar:
                         bool missileFired = true;
 
                         Missile newMissile = new Missile();
-                        newMissile.Draw(sourceLeft, sourceTop, sourceWidth, sourceHeight, targetLeft, targetTop, missileFired);
+                       // newMissile.Draw(sourceLeft, sourceTop, sourceWidth, sourceHeight, targetLeft, targetTop, missileFired);
 
-                        while (missileFired)
-                        {
-                                newMissile.Shoot();
-                                missileFired = false;
-                        }
-                        break;
+                        //while (missileFired)
+                        //{
+                        //        newMissile.Shoot();
+                        //        missileFired = false;
+                        //}
+                        //break;
                 }
 
             }

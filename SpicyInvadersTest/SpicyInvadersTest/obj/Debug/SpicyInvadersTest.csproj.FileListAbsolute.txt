@@ -12,3 +12,10 @@ D:\jerdelisle\repo\Projet-SpicyInvaderTest\SpicyInvadersTest\SpicyInvadersTest\o
 D:\jerdelisle\repo\Projet-SpicyInvaderTest\SpicyInvadersTest\SpicyInvadersTest\obj\Debug\SpicyInvadersTest.csproj.CoreCompileInputs.cache
 D:\jerdelisle\repo\Projet-SpicyInvaderTest\SpicyInvadersTest\SpicyInvadersTest\obj\Debug\SpicyInvadersTest.exe
 D:\jerdelisle\repo\Projet-SpicyInvaderTest\SpicyInvadersTest\SpicyInvadersTest\obj\Debug\SpicyInvadersTest.pdb
+C:\Users\sofethenoz\Desktop\ProjetTest\SpicyInvadersTest\SpicyInvadersTest\bin\Debug\SpicyInvadersTest.exe.config
+C:\Users\sofethenoz\Desktop\ProjetTest\SpicyInvadersTest\SpicyInvadersTest\bin\Debug\SpicyInvadersTest.exe
+C:\Users\sofethenoz\Desktop\ProjetTest\SpicyInvadersTest\SpicyInvadersTest\bin\Debug\SpicyInvadersTest.pdb
+C:\Users\sofethenoz\Desktop\ProjetTest\SpicyInvadersTest\SpicyInvadersTest\obj\Debug\SpicyInvadersTest.csprojAssemblyReference.cache
+C:\Users\sofethenoz\Desktop\ProjetTest\SpicyInvadersTest\SpicyInvadersTest\obj\Debug\SpicyInvadersTest.csproj.CoreCompileInputs.cache
+C:\Users\sofethenoz\Desktop\ProjetTest\SpicyInvadersTest\SpicyInvadersTest\obj\Debug\SpicyInvadersTest.exe
+C:\Users\sofethenoz\Desktop\ProjetTest\SpicyInvadersTest\SpicyInvadersTest\obj\Debug\SpicyInvadersTest.pdb
