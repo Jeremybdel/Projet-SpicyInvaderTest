@@ -1,4 +1,8 @@
-﻿using System;
+﻿///ETML
+///Auteur : Ethenoz Sofian
+///Date : 18.11.2019
+///Description : 
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,9 +13,11 @@ namespace NewSpicyVader
 {
     public class Player
     {
-        int left = 100;
-        int targetTop = 68;
-        int targetLeft = 106;
+        // variables 
+        int left = 100;         // position gauche du joueur
+        private int targetLeft = 106;   // position de tir du missile
+        public int TargetLeft { get=>targetLeft; }
+
 
         string player = (@"      ▄
      ███
@@ -20,7 +26,7 @@ namespace NewSpicyVader
 █████████████");
 
         /// <summary>
-        /// affiche les ennemis 3
+        /// affiche le joueur
         /// </summary>
         public void DrawPlayer()
         {
@@ -37,7 +43,8 @@ namespace NewSpicyVader
         /// </summary>
         public void Deplacement(ConsoleKey input)
         {
-            if (left > 0)
+            // empêche le joueur de sortir de la console du côté gauche
+            if (left > 1)
             {
                 if (input == ConsoleKey.LeftArrow)
                 {
@@ -45,7 +52,7 @@ namespace NewSpicyVader
                     targetLeft -= 2;
                 }
             }
-
+            // empêche le joueur de sortir de la console du côté droite
             if (left < 220)
             {
                 if (input == ConsoleKey.RightArrow)
@@ -53,34 +60,6 @@ namespace NewSpicyVader
                     Console.MoveBufferArea(left, 70, 13, 5, left += 2, 70);
                     targetLeft += 2;
                 }
-            }
-        }
-
-        public bool isFired = false;
-
-        /// <summary>
-        /// Tire un missile
-        /// </summary>
-        /// <param name="input"></param>
-        public void Shooting(ConsoleKey input)
-        {
-            if (isFired)
-            {
-                if (targetTop >= 0)
-                {
-                    Console.SetCursorPosition(targetLeft, targetTop--);
-                    Console.Write("I");
-                    Console.SetCursorPosition(targetLeft, targetTop + 2);
-                    Console.Write(" ");
-                }
-                else
-                {
-                    isFired = false;
-                }
-            }
-            else
-            {
-                targetTop = 68;
             }
         }
     }

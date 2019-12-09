@@ -1,7 +1,0 @@
-C:\Users\sofethenoz\Desktop\SpaceShip\SpaceShip\obj\Debug\SpaceShip.csprojAssemblyReference.cache
-C:\Users\sofethenoz\Desktop\SpaceShip\SpaceShip\obj\Debug\SpaceShip.csproj.CoreCompileInputs.cache
-C:\Users\sofethenoz\Desktop\SpaceShip\SpaceShip\bin\Debug\SpaceShip.exe.config
-C:\Users\sofethenoz\Desktop\SpaceShip\SpaceShip\bin\Debug\SpaceShip.exe
-C:\Users\sofethenoz\Desktop\SpaceShip\SpaceShip\bin\Debug\SpaceShip.pdb
-C:\Users\sofethenoz\Desktop\SpaceShip\SpaceShip\obj\Debug\SpaceShip.exe
-C:\Users\sofethenoz\Desktop\SpaceShip\SpaceShip\obj\Debug\SpaceShip.pdb

@@ -1,243 +1,115 @@
-﻿using System;
-using System.Threading;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NewSpicyVader;
 
 namespace UnitTestProject1
 {
     [TestClass]
     public class UnitTest1
     {
+        // --------------------------------------------------------- test class Player --------------------------------------------------------------
         [TestMethod]
-        public void TestMethod1()
+        public void TestShootingPlayer()
         {
-            Ennemy neme = new Ennemy();
-            neme.DeplacementEnnemi();
+            // Arrange
+            int targetLeft = 106;
+            int targetTop = 68;
+
+            // Act
+            while (targetTop >= 1)
+            {
+                targetTop--;
+            }
+
+            // Assert
+            Assert.AreEqual(106, targetLeft, "Le résultat doit être de 106");
+            Assert.AreEqual(0, targetTop, "Le résultat doit être de 0");
         }
-        class Ennemy
+
+        [TestMethod]
+        public void TestDeplacementPlayerLeft()
         {
+            // Arrange
+            int left = 100;
+            int targetLeft = 106;
 
-            public string ennemy1 = (@"
-   ▄██▄
- ▄██████▄
-███▄██▄███
-  ▄▀▄▄▀▄    
- ▀ ▀  ▀ ▀");
-            public string ennemy2 = (@"
-   ▄██▄
- ▄██████▄
-███▄██▄███
-  ▄▀  ▀▄
-   ▀  ▀  ");
-            public string ennemy3 = (@"
- ▄▄████▄▄
-██████████
-██▄▄██▄▄██
- ▄▀▄▀▀▄▀▄
-▀        ▀");
-            public string ennemy4 = (@"
- ▄▄████▄▄
-██████████
-██▄▄██▄▄██
- ▄▀▄▀▀▄▀▄
-  ▀    ▀  ");
-            public string ennemy5 = (@"
-▄ ▀▄   ▄▀ ▄
-█▄███████▄█
-███▄███▄███
-▀█████████▀
- ▄▀     ▀▄");
-            public string ennemy6 = (@"
-  ▀▄   ▄▀  
- ▄█▀███▀█▄  
-█▀███████▀█ 
-█ █▀▀▀▀▀█ █ 
-   ▀▀ ▀▀   ");
-            public string ennemy7 = (@"
-    ▄▄████▄▄
-  ▄██████████▄
-▄██▄██▄██▄██▄██▄
-  ▀█▀  ▀▀  ▀█▀");
-            /// <summary>
-            /// affiche les ennemis 1
-            /// </summary>
-            public void DrawEnnemi1(int positionX, int positionY)
+            // Act       
+            while (left > 0)
             {
-                for (int x = 0; x < 10; ++x)
-                {
-                    for (int i = 0; i < ennemy1.Split('\n').Length; ++i)
-                    {
-                        Console.SetCursorPosition(x * 12 + positionX, i + positionY);
-                        Console.Write(ennemy1.Split('\n')[i]);
-                    }
-                }
+                targetLeft -= 2;
+                left -= 2;
             }
 
-            /// <summary>
-            /// affiche les ennemis 1
-            /// </summary>
-            public void DrawEnnemi11(int positionX, int positionY)
+            // Assert
+            Assert.AreEqual(0, left, "Le résultat doit être de 0");
+            Assert.AreEqual(6, targetLeft, "Le résultat doit être de -2");
+        }
+
+        [TestMethod]
+        public void TestDeplacementPlayerRigth()
+        {
+            // Arrange
+            int left = 100;
+            int targetLeft = 106;
+
+            // Act         
+            while (left < 220)
             {
-                for (int x = 0; x < 10; ++x)
-                {
-                    for (int i = 0; i < ennemy2.Split('\n').Length; ++i)
-                    {
-                        Console.SetCursorPosition(x * 12 + positionX, i + positionY);
-                        Console.Write(ennemy2.Split('\n')[i]);
-                    }
-                }
+                targetLeft += 2;
+                left += 2;
             }
 
-            /// <summary>
-            /// affiche les ennemis 2
-            /// </summary>
-            public void DrawEnnemi2(int positionX, int positionY)
+            // Assert
+            Assert.AreEqual(220, left, "Le résultat doit être de 220");
+            Assert.AreEqual(226, targetLeft, "Le résultat doit être de 222");
+        }
+
+        // ------------------------------------------------------------------- test class Ennemy ---------------------------------------------------------//
+        [TestMethod]
+        public void TestDeplacementEnnemy()
+        {
+            // Arrange
+            int sourceLeft = 0;     // point le plus à gauche
+            int sourceTop = 0;      // point le plus en haut
+            int targetTop = 0;      // position voulue en haut
+            int targetLeft = 0;     // position voulue à gauche
+
+            // Act
+            if (targetTop != 40)
             {
-                for (int x = 0; x < 10; ++x)
+                // déplacement droite
+                if (targetTop % 4 == 0)
                 {
-                    for (int i = 0; i < ennemy3.Split('\n').Length; ++i)
+                    if (targetLeft < 115)
                     {
-                        Console.SetCursorPosition(x * 12 + positionX, i + 7 + positionY);
-                        Console.Write(ennemy3.Split('\n')[i]);
+                        targetLeft++;
+                        sourceLeft++;
                     }
-                }
-            }
-
-            /// <summary>
-            /// affiche les ennemis 2
-            /// </summary>
-            public void DrawEnnemi22(int positionX, int positionY)
-            {
-                for (int x = 0; x < 10; ++x)
-                {
-                    for (int i = 0; i < ennemy4.Split('\n').Length; ++i)
-                    {
-                        Console.SetCursorPosition(x * 12 + positionX, i + 7 + positionY);
-                        Console.Write(ennemy4.Split('\n')[i]);
-                    }
-                }
-            }
-
-            /// <summary>
-            /// affiche les ennemis 3
-            /// </summary>
-            public void DrawEnnemi3(int positionX, int positionY)
-            {
-                for (int x = 0; x < 10; ++x)
-                {
-                    for (int i = 0; i < ennemy5.Split('\n').Length; ++i)
-                    {
-                        Console.SetCursorPosition(x * 12 + positionX, i + 14 + positionY);
-                        Console.Write(ennemy5.Split('\n')[i]);
-                    }
-                }
-            }
-
-            /// <summary>
-            /// affiche les ennemis 3
-            /// </summary>
-            public void DrawEnnemi33(int positionX, int positionY)
-            {
-                for (int x = 0; x < 10; ++x)
-                {
-                    for (int i = 0; i < ennemy6.Split('\n').Length; ++i)
-                    {
-                        Console.SetCursorPosition(x * 12 + positionX, i + 14 + positionY);
-                        Console.Write(ennemy6.Split('\n')[i]);
-                    }
-                }
-            }
-
-            /// <summary>
-            /// Deplacement des ennemis
-            /// </summary>
-            public void DeplacementEnnemi()
-            {
-                // appelle des méthodes qui affiche les ennemis
-                DrawEnnemi1(0, 0);
-                DrawEnnemi2(0, 0);
-                DrawEnnemi3(0, 0);
-
-                // variable
-                int difficulty = 50;
-                int sourceLeft = 0;
-                int sourceTop = 0;
-                int sourceWidth = 119;
-                int sourceHeight = 20;
-                int targetTop = 0;
-                int targetLeft = 0;
-
-                // déplacement des ennemis
-                while (true)
-                {
-                    if (targetTop == 40)
-                    {
-                        break;
-                    }
-                    // déplacement droite
-                    if (targetTop % 4 == 0)
-                    {
-                        if (targetLeft < 115)
-                        {
-                            targetLeft++;
-
-                            if (targetLeft % 6 > 2)
-                            {
-                                DrawEnnemi11(sourceLeft, sourceTop);
-                                DrawEnnemi22(sourceLeft, sourceTop);
-                                DrawEnnemi33(sourceLeft, sourceTop);
-                            }
-                            else if (targetLeft % 6 < 2)
-                            {
-                                DrawEnnemi1(sourceLeft, sourceTop);
-                                DrawEnnemi2(sourceLeft, sourceTop);
-                                DrawEnnemi3(sourceLeft, sourceTop);
-                            }
-
-                            Console.MoveBufferArea(sourceLeft, sourceTop, sourceWidth, sourceHeight, targetLeft, targetTop);
-                            sourceLeft++;
-
-                            Thread.Sleep(difficulty);
-                        }
-                        else
-                        {
-                            targetTop += 2;
-                            Console.MoveBufferArea(sourceLeft, sourceTop, sourceWidth, sourceHeight, targetLeft, targetTop);
-                            sourceTop += 2;
-                        }
-                    }
-                    // déplacement gauche
                     else
                     {
-                        if (targetLeft > 2)
-                        {
-                            targetLeft--;
-
-                            if (targetLeft % 6 > 2)
-                            {
-                                DrawEnnemi11(sourceLeft, sourceTop);
-                                DrawEnnemi22(sourceLeft, sourceTop);
-                                DrawEnnemi33(sourceLeft, sourceTop);
-                            }
-                            else if (targetLeft % 6 < 2)
-                            {
-                                DrawEnnemi1(sourceLeft, sourceTop);
-                                DrawEnnemi2(sourceLeft, sourceTop);
-                                DrawEnnemi3(sourceLeft, sourceTop);
-                            }
-
-                            Console.MoveBufferArea(sourceLeft, sourceTop, sourceWidth, sourceHeight, targetLeft, targetTop);
-                            sourceLeft--;
-
-                            Thread.Sleep(difficulty);
-                        }
-                        else
-                        {
-                            targetTop += 2;
-                            Console.MoveBufferArea(sourceLeft, sourceTop, sourceWidth, sourceHeight, targetLeft, targetTop);
-                            sourceTop += 2;
-                        }
+                        targetTop += 2;
+                        sourceTop += 2;
                     }
                 }
+                // déplacement gauche
+                else
+                {
+                    if (targetLeft > 2)
+                    {
+                        targetLeft--;
+                        sourceLeft--;
+                    }
+                    else
+                    {
+                        targetTop += 2;
+                        sourceTop += 2;
+                    }
+                }
+
+                // Assert
+                Assert.IsNotNull(targetTop, "le résultat ne doit pas être null");
+                Assert.IsNotNull(sourceTop, "le résultat ne doit pas être null");
+                Assert.IsNotNull(targetLeft, "le résultat ne doit pas être null");
+                Assert.IsNotNull(sourceLeft, "le résultat ne doit pas être null");
             }
         }
     }
