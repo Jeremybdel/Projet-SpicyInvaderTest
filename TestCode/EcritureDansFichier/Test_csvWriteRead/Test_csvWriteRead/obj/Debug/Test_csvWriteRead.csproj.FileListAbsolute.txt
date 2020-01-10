@@ -1,0 +1,14 @@
+H:\01-PROJETS\P_032Dev\Test_csvWriteRead\Test_csvWriteRead\bin\Debug\Test_csvWriteRead.exe.config
+H:\01-PROJETS\P_032Dev\Test_csvWriteRead\Test_csvWriteRead\bin\Debug\Test_csvWriteRead.exe
+H:\01-PROJETS\P_032Dev\Test_csvWriteRead\Test_csvWriteRead\bin\Debug\Test_csvWriteRead.pdb
+H:\01-PROJETS\P_032Dev\Test_csvWriteRead\Test_csvWriteRead\obj\Debug\Test_csvWriteRead.csprojAssemblyReference.cache
+H:\01-PROJETS\P_032Dev\Test_csvWriteRead\Test_csvWriteRead\obj\Debug\Test_csvWriteRead.csproj.CoreCompileInputs.cache
+H:\01-PROJETS\P_032Dev\Test_csvWriteRead\Test_csvWriteRead\obj\Debug\Test_csvWriteRead.exe
+H:\01-PROJETS\P_032Dev\Test_csvWriteRead\Test_csvWriteRead\obj\Debug\Test_csvWriteRead.pdb
+K:\INF\Eleves\Enseignement\ModulesProjet_NewOrdo\032-P_Dev\thedipaola-jerdelisle-\Test_csvWriteRead\Test_csvWriteRead\obj\Debug\Test_csvWriteRead.csprojAssemblyReference.cache
+K:\INF\Eleves\Enseignement\ModulesProjet_NewOrdo\032-P_Dev\thedipaola-jerdelisle-\Test_csvWriteRead\Test_csvWriteRead\obj\Debug\Test_csvWriteRead.csproj.CoreCompileInputs.cache
+K:\INF\Eleves\Enseignement\ModulesProjet_NewOrdo\032-P_Dev\thedipaola-jerdelisle-\Test_csvWriteRead\Test_csvWriteRead\obj\Debug\Test_csvWriteRead.exe
+K:\INF\Eleves\Enseignement\ModulesProjet_NewOrdo\032-P_Dev\thedipaola-jerdelisle-\Test_csvWriteRead\Test_csvWriteRead\obj\Debug\Test_csvWriteRead.pdb
+K:\INF\Eleves\Enseignement\ModulesProjet_NewOrdo\032-P_Dev\thedipaola-jerdelisle-\Test_csvWriteRead\Test_csvWriteRead\bin\Debug\Test_csvWriteRead.exe.config
+K:\INF\Eleves\Enseignement\ModulesProjet_NewOrdo\032-P_Dev\thedipaola-jerdelisle-\Test_csvWriteRead\Test_csvWriteRead\bin\Debug\Test_csvWriteRead.exe
+K:\INF\Eleves\Enseignement\ModulesProjet_NewOrdo\032-P_Dev\thedipaola-jerdelisle-\Test_csvWriteRead\Test_csvWriteRead\bin\Debug\Test_csvWriteRead.pdb

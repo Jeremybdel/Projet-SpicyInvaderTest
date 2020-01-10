@@ -1,0 +1,21 @@
+try
+            {
+                //Créez une instance de StreamReader pour lire à partir d'un fichier
+                using (StreamReader sr = new StreamReader(@"../../../../Scores.txt"))
+                {
+                    string line;
+                    // Lire les lignes du fichier jusqu'à la fin.
+                    while ((line = sr.ReadLine()) != null)
+                    {
+                        Console.WriteLine(line);
+
+                    }
+                    Console.ReadLine();
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Le fichier n'a pas pu être lu.");
+                Console.WriteLine(e.Message);
+                
+            }
